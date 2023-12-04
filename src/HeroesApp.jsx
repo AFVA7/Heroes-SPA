@@ -1,11 +1,11 @@
 import { AuthProvider } from "./auth"
-import { RouterApp } from "./router/RouterApp"
+import { AppRouter } from "./router/AppRouter"
 
 export const HeroesApp = () => {
   return (
     <>
       <AuthProvider>
-        <RouterApp />
+        <AppRouter />
       </AuthProvider>
 
     </>
